@@ -1,0 +1,47 @@
+{
+	"cli": {
+		"version": ">= 12.0.0",
+		"appVersionSource": "remote"
+	},
+	"build": {
+		"development": {
+			"developmentClient": true,
+			"distribution": "internal",
+			"android": {
+				"buildType": "apk",
+				"image": "ubuntu-22.04-jdk-17-ndk-r25b"
+			},
+			"ios": {
+				"buildConfiguration": "Debug"
+			},
+			"env": {
+				"EXPO_PUBLIC_API_URL": "http://100.64.0.7:5001",
+				"EXPO_PUBLIC_GOOGLE_API_KEY": "AIzaSyBfUJoJORgoQu1lxBzmGC1cH5koJF8asQo"
+			}
+		},
+		"preview": {
+			"distribution": "internal",
+			"android": {
+				"buildType": "apk",
+				"image": "ubuntu-22.04-jdk-17-ndk-r25b"
+			},
+			"env": {
+				"EXPO_PUBLIC_API_URL": "http://100.64.0.7:5001",
+				"EXPO_PUBLIC_GOOGLE_API_KEY": "AIzaSyBfUJoJORgoQu1lxBzmGC1cH5koJF8asQo"
+			}
+		},
+		"production": {
+			"android": {
+				"buildType": "apk",
+				"image": "ubuntu-22.04-jdk-17-ndk-r25b"
+			},
+			"env": {
+				"EXPO_PUBLIC_API_URL": "https://team45.lwazi.rocks",
+				"EXPO_PUBLIC_GOOGLE_API_KEY": "AIzaSyBfUJoJORgoQu1lxBzmGC1cH5koJF8asQo"
+			}
+		}
+	},
+	"submit": {
+		"production": {}
+	}
+}

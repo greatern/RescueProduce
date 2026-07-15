@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "416449164853",
+    "project_id": "rescue-f2593",
+    "storage_bucket": "rescue-f2593.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416449164853:android:ecf778027db3032084e37c",
+        "android_client_info": {
+          "package_name": "com.lwazip.rescueproduce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdNYZB4OrmNjqMSnDIHDMIg7RKU03q_Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

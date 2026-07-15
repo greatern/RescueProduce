@@ -1,0 +1,125 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Expo
+.expo/
+__generated__
+web-build
+#eas.json
+bare-apps
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Ruby
+.direnv
+
+# Env
+.envrc.local
+.env*.local
+.env
+
+# Emacs
+*~
+
+# Vim
+.*.swp
+.*.swo
+.*.swn
+.*.swm
+
+# VS Code
+.vscode/launch.json
+.vscode/
+.vs/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.xccheckout
+*.xcscmblueprint
+xcuserdata
+
+# IDEA / Android Studio
+*.iml
+.gradle
+.idea/
+
+# Eclipse
+.project
+.settings
+
+# VSCode
+.history/
+/vscode/launch.json
+
+# Android build outputs only (keep source files)
+android/app/build/
+android/build/
+android/.gradle/
+android/app/.cxx/
+android/app/src/main/assets/
+*.apk
+*.aab
+*.hprof
+ReactAndroid-temp.aar
+
+# Tools
+jarjar-rules.txt
+
+# Dynamic Macros
+.kernel-ngrok-url
+
+# Template files
+/apps/bare-expo/android/app/google-services.json
+/apps/bare-expo/ios/BareExpo/GoogleService-Info.plist
+
+# Codemod
+.codemod.bookmark
+
+# Fastlane
+/*.cer
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/Deployment
+/fastlane/test_output
+/Preview.html
+/gc_keys.json
+/fastlane/gc_keys.json
+
+# CI
+/android/logcat.txt
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# TypeScript state
+tsconfig.tsbuildinfo
+
+# secrets 
+google-services.json
+rescue-*.json

@@ -1,0 +1,63 @@
+{
+	"expo": {
+		"name": "Rescue Produce",
+		"slug": "rescue-produce",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"newArchEnabled": true,
+		"jsEngine": "hermes",
+		"splash": {
+			"image": "./assets/images/AppLogo.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.lwazip.rescueproduce",
+			"infoPlist": {
+				"UIBackgroundModes": ["background-fetch", "remote-notification"]
+			}
+		},
+		"android": {
+			"package": "com.lwazip.rescueproduce",
+			"googleServicesFile": "./google-services.json",
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/AppLogo.png",
+				"backgroundColor": "#ffffff"
+			},
+			"permissions": [
+				"RECEIVE_BOOT_COMPLETED",
+				"VIBRATE",
+				"WAKE_LOCK",
+				"android.permission.RECEIVE_BOOT_COMPLETED",
+				"android.permission.POST_NOTIFICATIONS"
+			]
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"notification": {
+			"icon": "./assets/icons/notification.png",
+			"color": "#4CAF50",
+			"androidMode": "default",
+			"androidCollapsedTitle": "RescueProduce"
+		},
+		"plugins": [
+			"expo-router",
+			"expo-notifications",
+			"expo-dev-client",
+			"expo-font"
+		],
+		"scheme": "rescue-produce",
+		"extra": {
+			"router": {},
+			"eas": {
+				"projectId": "c2c4a612-4662-4747-8e47-cc009f422eaa"
+			}
+		},
+		"owner": "lwazi-org"
+	}
+}
